@@ -1,0 +1,51 @@
+- title: 数学
+  url: mathematics
+  sites:
+    - title: Desmos
+      url: https://www.desmos.com/?lang=ja
+      javascript: true
+    - title: オンライン整数列大辞典
+      url: https://oeis.org/?language=japanese
+      javascript: false
+    - title: 高校数学の美しい物語
+      url: https://manabitimes.jp/math
+      javascript: false
+- title: ソーシャルメディア
+  url: social-media
+  sites:
+    - title: Facebook
+      url: https://www.facebook.com/
+      javascript: true
+    - title: Twitter
+      url: https://twitter.com
+      javascript: true
+    - title: YouTube
+      url: https://www.youtube.com
+      javascript: true
+    - title: Wikipedia
+      url: https://www.wikipedia.org/
+      javascript: false
+- title: プログラミング
+  url: programming
+  sites:
+    - title: GitHub
+      url: https://github.com/
+      javascript: false
+    - title: regex101
+      url: https://regex101.com/
+      javascript: true
+  categories:
+    - title: Java
+      url: java
+- title: Java
+  url: programming/java
+  sites:
+    - title: Let'sプログラミング
+      url: https://www.javadrive.jp/start/
+      javascript: false
+    - title: Overview (Java Platform SE 8)
+      url: https://docs.oracle.com/javase/jp/8/docs/api/
+      javascript: true
+    - title: Overview Summary (Java Platform SE 8)
+      url: https://docs.oracle.com/javase/jp/8/docs/api/overview-summary.html
+      javascript: false
