@@ -2,7 +2,7 @@
 
 w3mを使うことを想定したディレクトリ型検索エンジンです。
 
-[数学](mathematics)
-[ソーシャルメディア](social-media)
-[プログラミング](programming)
-[Java](programming/java)
+[数学](mathematics.md)
+[ソーシャルメディア](social-media.md)
+[プログラミング](programming.md)
+[Java](programming/java.md)

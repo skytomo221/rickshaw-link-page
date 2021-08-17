@@ -15,14 +15,14 @@ with open('link-page.yml', 'r', encoding="utf-8") as yml:
         for category in linkpage:
             title = category['title']
             url = category['url']
-            f.write(f'[{title}]({url})\n')
+            f.write(f'[{title}]({url}.md)\n')
     with open(f'{w3m_se}/index.md', mode='w', encoding="utf-8") as f:
         f.write(
             '# w3m Search Engine\n\nw3mを使うことを想定したディレクトリ型検索エンジンです。\n\n')
         for category in linkpage:
             title = category['title']
             url = category['url']
-            f.write(f'[{title}]({url})\n')
+            f.write(f'[{title}]({url}.md)\n')
     for category in linkpage:
         category_title = category['title']
         category_url = category['url']
@@ -38,7 +38,7 @@ with open('link-page.yml', 'r', encoding="utf-8") as yml:
                 for site in category['categories']:
                     title = site['title']
                     url = site['url']
-                    f.write(f'[{title}]({url})\n')
+                    f.write(f'[{title}]({url}.md)\n')
         with open(f'{w3m_se}/{category_url}.md', mode='w', encoding="utf-8") as f:
             f.write(f'# {category_title}\n\n## Sites\n\n')
             for site in category['sites']:
@@ -52,7 +52,7 @@ with open('link-page.yml', 'r', encoding="utf-8") as yml:
                 for site in category['categories']:
                     title = site['title']
                     url = site['url']
-                    f.write(f'[{title}]({url})\n')
+                    f.write(f'[{title}]({url}.md)\n')
             f.write(f'\n## JavaScript-needed\n\n')
             for site in category['sites']:
                 if site['javascript']:

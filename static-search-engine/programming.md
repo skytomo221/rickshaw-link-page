@@ -7,4 +7,4 @@
 
 ## Categories
 
-[Java](java)
+[Java](java.md)
